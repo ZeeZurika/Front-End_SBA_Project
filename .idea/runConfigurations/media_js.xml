@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="media.js" type="NodeJSConfigurationType" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/23.2.0/node_modules/npm/bin/npm" nameIsGenerated="true" path-to-js-file="media.js" working-dir="$PROJECT_DIR$/js">
+    <method v="2" />
+  </configuration>
+</component>

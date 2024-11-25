@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Welcome to My Interactive Website</h1>
+  <p>Subscribe to our newsletter:</p>
+  <form id="subscribe-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+  <div id="subscribers">
+    <h2>Subscribers:</h2>
+    <ul id="subscriber-list"></ul>
+  </div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="media.html" class="active">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Media Gallery</h1>
+  <p>Click on a thumbnail to play the video in the player below:</p>
+  <div id="video-player">
+    <video id="main-video" controls>
+      <source src="videos/citytraffic.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div id="video-thumbnails" class="gallery">
+    <!-- Placeholder for dynamically generated thumbnails -->
+    <div class="thumbnail">
+      <img id="city-drive" alt="City Traffic">
+      <p>City Drive</p>
+    </div>
+    <div class="thumbnail">
+      <img id="desert-drive" alt="Desert Drive">
+      <p>Desert Drive</p>
+    </div>
+    <div class="thumbnail">
+      <img id="java-class" alt="Java Class">
+      <p>Java Class</p>
+    </div>
+    <div class="thumbnail">
+      <img id="the-road" alt="On The Road">
+      <p>On The Road</p>
+    </div>
+    <div class="thumbnail">
+      <img id="tunnel-drive" alt="Tunnel Drive">
+      <p>Tunnel Drive</p>
+    </div>
+  </div>
+</main>
+<script src="js/media.js"></script>
+</body>
+</html>
